@@ -21,7 +21,10 @@ interface _GlobalComponents {
     'KeyValueEditor': typeof import("../components/KeyValueEditor.vue")['default']
     'MessageTemplateModal': typeof import("../components/MessageTemplateModal.vue")['default']
     'Pagination': typeof import("../components/Pagination.vue")['default']
+    'PermissionModal': typeof import("../components/PermissionModal.vue")['default']
     'RecentSales': typeof import("../components/RecentSales.vue")['default']
+    'RoleModal': typeof import("../components/RoleModal.vue")['default']
+    'RolePermissionsModal': typeof import("../components/RolePermissionsModal.vue")['default']
     'Sidebar': typeof import("../components/Sidebar.vue")['default']
     'StatCard': typeof import("../components/StatCard.vue")['default']
     'StatusBadge': typeof import("../components/StatusBadge.vue")['default']
@@ -62,7 +65,10 @@ interface _GlobalComponents {
     'LazyKeyValueEditor': LazyComponent<typeof import("../components/KeyValueEditor.vue")['default']>
     'LazyMessageTemplateModal': LazyComponent<typeof import("../components/MessageTemplateModal.vue")['default']>
     'LazyPagination': LazyComponent<typeof import("../components/Pagination.vue")['default']>
+    'LazyPermissionModal': LazyComponent<typeof import("../components/PermissionModal.vue")['default']>
     'LazyRecentSales': LazyComponent<typeof import("../components/RecentSales.vue")['default']>
+    'LazyRoleModal': LazyComponent<typeof import("../components/RoleModal.vue")['default']>
+    'LazyRolePermissionsModal': LazyComponent<typeof import("../components/RolePermissionsModal.vue")['default']>
     'LazySidebar': LazyComponent<typeof import("../components/Sidebar.vue")['default']>
     'LazyStatCard': LazyComponent<typeof import("../components/StatCard.vue")['default']>
     'LazyStatusBadge': LazyComponent<typeof import("../components/StatusBadge.vue")['default']>
@@ -109,7 +115,10 @@ export const JobInstanceDetails: typeof import("../components/JobInstanceDetails
 export const KeyValueEditor: typeof import("../components/KeyValueEditor.vue")['default']
 export const MessageTemplateModal: typeof import("../components/MessageTemplateModal.vue")['default']
 export const Pagination: typeof import("../components/Pagination.vue")['default']
+export const PermissionModal: typeof import("../components/PermissionModal.vue")['default']
 export const RecentSales: typeof import("../components/RecentSales.vue")['default']
+export const RoleModal: typeof import("../components/RoleModal.vue")['default']
+export const RolePermissionsModal: typeof import("../components/RolePermissionsModal.vue")['default']
 export const Sidebar: typeof import("../components/Sidebar.vue")['default']
 export const StatCard: typeof import("../components/StatCard.vue")['default']
 export const StatusBadge: typeof import("../components/StatusBadge.vue")['default']
@@ -150,7 +159,10 @@ export const LazyJobInstanceDetails: LazyComponent<typeof import("../components/
 export const LazyKeyValueEditor: LazyComponent<typeof import("../components/KeyValueEditor.vue")['default']>
 export const LazyMessageTemplateModal: LazyComponent<typeof import("../components/MessageTemplateModal.vue")['default']>
 export const LazyPagination: LazyComponent<typeof import("../components/Pagination.vue")['default']>
+export const LazyPermissionModal: LazyComponent<typeof import("../components/PermissionModal.vue")['default']>
 export const LazyRecentSales: LazyComponent<typeof import("../components/RecentSales.vue")['default']>
+export const LazyRoleModal: LazyComponent<typeof import("../components/RoleModal.vue")['default']>
+export const LazyRolePermissionsModal: LazyComponent<typeof import("../components/RolePermissionsModal.vue")['default']>
 export const LazySidebar: LazyComponent<typeof import("../components/Sidebar.vue")['default']>
 export const LazyStatCard: LazyComponent<typeof import("../components/StatCard.vue")['default']>
 export const LazyStatusBadge: LazyComponent<typeof import("../components/StatusBadge.vue")['default']>

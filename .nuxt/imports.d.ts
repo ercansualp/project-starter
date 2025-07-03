@@ -31,5 +31,4 @@ export { setInterval } from '#app/compat/interval';
 export { useProjects } from '../composables/useProjects';
 export { useSidebar } from '../composables/useSidebar';
 export { useColorMode } from '../node_modules/@nuxtjs/color-mode/dist/runtime/composables';
-export { useNuxtDevTools } from '../node_modules/nuxt/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';
